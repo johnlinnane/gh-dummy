@@ -469,7 +469,18 @@ class ItemView extends Component {
             {this.getSubCatName(items.item.subcategory_ref)}
         }
 
-    
+        return (
+            
+            <div>
+                { this.navInfo.catTitle  ?
+                    <NavigationBar navinfo={this.navInfo} title={items.item.title}/>    
+                : null }
+
+                <div className="main_view">
+                    {this.renderItem(items)}
+                </div>
+            </div>
+        );
     }
 }
 

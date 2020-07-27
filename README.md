@@ -1,2 +1,1 @@
 # gh-dummy
-# hello.js
