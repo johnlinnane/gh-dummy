@@ -5,4 +5,6 @@ let carlton = "dance";
 
 console.log(myVar, carlton);
 
-myVar = myVar + 14;
+myVar = myVar + 14;myVar++;
+myVar++;
+myVar++;
