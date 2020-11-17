@@ -7,6 +7,8 @@ import Slick from 'react-slick';   // uses cdn css
 
 import { Document, Page, pdfjs } from 'react-pdf';
 // import PDFViewer from 'pdf-viewer-reactjs'
+// import PDFViewer from 'pdf-viewer-reactjs'
+// import PDFViewer from 'pdf-viewer-reactjs'
 
 
 
